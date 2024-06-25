@@ -2,7 +2,7 @@ USE dbDistribuidora
 GO
 --10 CONSULTAS PARA 10 PREGUNTAS
 
---PREGUNTA 01: ¿Que producto tuvo mayor venta y en que sucursal  durante 2023?
+--PREGUNTA 01: Â¿Que producto tuvo mayor venta y en que sucursal  durante 2023?
 SELECT TOP 1 p.id_producto, p.descripcion as Producto, SUM(dp.cantidad) AS Unidades_Vendidas, s.id_sucursal as Cod_sucursal, s.nombre as Sucursal
 FROM productos p
 INNER JOIN pedido_detalle dp ON p.id_producto = dp.id_producto
@@ -18,7 +18,7 @@ ORDER BY
 Unidades_Vendidas DESC
 
 
---PERGUNTA 02: ¿Cuantos clientes fueron atendidos  durante el primer trimestre del 2024 en cada sucursal?
+--PERGUNTA 02: Â¿Cuantos clientes fueron atendidos  durante el primer trimestre del 2024 en cada sucursal?
 SELECT 
     pe.id_sucursal,
         s.nombre,
@@ -37,7 +37,7 @@ GROUP BY
         ORDER BY
 Clientes_atendidos DESC
 
---PREGUNTA 03: ¿Cuantos pedidos atendieron  los vendedores en cada sucursal en el primer semestre  del 2023?
+--PREGUNTA 03: Â¿Cuantos pedidos atendieron  los vendedores en cada sucursal en el primer semestre  del 2023?
 SELECT 
     pe.id_vendedor,
         v.apellidos + ' ' + v.nombres as Nombre,
@@ -62,7 +62,7 @@ GROUP BY
 Atencion_vendedor DESC
 
 
---PREGUNTA 04: ¿Que productos fueron los menos vendidos  en cada sucursal en el segundo semestre del 2023? 
+--PREGUNTA 04: Â¿Que productos fueron los menos vendidos  en cada sucursal en el segundo semestre del 2023? 
 SELECT p.id_producto, 
 p.descripcion as Producto, 
 SUM(dp.cantidad) AS Unidades_Vendidas, 
@@ -85,7 +85,7 @@ ORDER BY
 Unidades_Vendidas DESC
 
 
---PREGUNTA 05: ¿Cual ha sido la forma de pago mas frecuente en cada sucursal durante el 2023?
+--PREGUNTA 05: Â¿Cual ha sido la forma de pago mas frecuente en cada sucursal durante el 2023?
 SELECT fp.id_forma_pago, fp.descripcion as forma_Pago, 
 COUNT(distinct pe.id_pedido) AS Pedidos, 
 s.id_sucursal as Cod_sucursal, s.nombre as Sucursal
@@ -102,7 +102,7 @@ ORDER BY
 s.id_sucursal, pedidos DESC
 
 
---PREGUNTA 06: ¿Que sucursal registro mayores ventas de licores durante el año 2023?
+--PREGUNTA 06: Â¿Que sucursal registro mayores ventas de licores durante el aÃ±o 2023?
 SELECT c.id_categoria, 
 c.descripcion as Categoria, 
 SUM(dp.cantidad) AS Licores_vendidos, 
@@ -123,7 +123,7 @@ ORDER BY
 Licores_vendidos DESC
 
 
---PREGUNTA 07: ¿Cuantos pedidos por sucursal  hicieron los clientes  durante el año 2023?
+--PREGUNTA 07: Â¿Cuantos pedidos por sucursal  hicieron los clientes  durante el aÃ±o 2023?
 SELECT COUNT( DISTINCT pe.id_pedido) AS Cantidadd_pedidos, 
 s.id_sucursal as Cod_sucursal, 
 s.nombre as Sucursal
@@ -137,7 +137,7 @@ ORDER BY
 Cantidadd_pedidos DESC
 
 
---PREGUNTA 08: ¿Que categoria de productos presentaron mayores pedidos en cada sucursal durante el primer trimestre del 2024?
+--PREGUNTA 08: Â¿Que categoria de productos presentaron mayores pedidos en cada sucursal durante el primer trimestre del 2024?
 SELECT 
     s.nombre AS sucursal, 
     c.descripcion AS categoria, 
@@ -157,7 +157,7 @@ ORDER BY
     s.nombre, total_pedidos DESC
 	
 
---PREGUNTA 09: ¿Que proveedores abastecieron de productos  de categoría de productos lacteos durante el segundo trimestre del 2023?
+--PREGUNTA 09: Â¿Que proveedores abastecieron de productos  de categorÃ­a de productos lacteos durante el segundo trimestre del 2023?
 SELECT DISTINCT
     c.id_proveedor,
     p.razon_social,
@@ -178,7 +178,7 @@ ORDER BY
     c.id_proveedor;
 				
 
---PREGUNTA 10: ¿Cuales son los 3 productos mas solicitados en los pedidos por cada sucursal en el primer trimestre del 2024?
+--PREGUNTA 10: Â¿Cuales son los 3 productos mas solicitados en los pedidos por cada sucursal en el primer trimestre del 2024?
  WITH MasVendidos AS (
   SELECT
         p.id_sucursal, s.nombre, pd.id_producto, pr.descripcion,
