@@ -246,7 +246,7 @@ INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, i
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (76, N'DNI', N'46789233', N'ANICAMA  PEREZ', N'JULIA', N'AV PRIMAVERA  500', 150121, N'286338400')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (77, N'DNI', N'56094323', N'PEREZ OBANDO', N'WALTER', N'AV SAEN PEÑA  290', 150123, N'291621421')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (77, N'DNI', N'56094323', N'PEREZ OBANDO', N'WALTER', N'AV SAEN PEÃ‘A  290', 150123, N'291621421')
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (78, N'DNI', N'99567808', N'TARAZONA  SANCHEZ ', N'CARLA', N'AV FERROCARRIL 400', 150123, N'306338499')
 GO
@@ -268,7 +268,7 @@ INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, i
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (87, N'DNI', N'18674706', N'SALVATIERRA SANCHEZ ', N'MANUEL', N'CALLE SAN ANTONIO 445', 150123, N'399134417')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (88, N'DNI', N'19517705', N'PEÑA PERALTA', N'CARMELITA', N'JR SANDIA  900', 150124, N'409138181')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (88, N'DNI', N'19517705', N'PEÃ‘A PERALTA', N'CARMELITA', N'JR SANDIA  900', 150124, N'409138181')
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (89, N'DNI', N'20678308', N'ROJAS MEJIA', N'ESTHER', N'CALLE RAYMONDI 190', 150125, N'419138182')
 GO
@@ -290,7 +290,7 @@ INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, i
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (98, N'DNI', N'29678729', N'CARMONA  SANCHEZ ', N'VERONIKA ', N'CALLE CARLOS QUINTO  190', 150119, N'548138113')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (99, N'DNI', N'30678730', N'MUÑOZ LARA', N'PERCY', N'JR LETICIA  390', 150118, N'549178141')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (99, N'DNI', N'30678730', N'MUÃ‘OZ LARA', N'PERCY', N'JR LETICIA  390', 150118, N'549178141')
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (100, N'DNI', N'31678732', N'BURGA  ARTEAGA', N'JUAN CARLOS ', N'JR PARURO 520', 150117, N'553267132')
 GO
@@ -300,11 +300,11 @@ INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, i
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (103, N'DNI', N'34678332', N'TAPIA CARDENAS ', N'ARTURO', N'AV LOS HEROES NAVALES 200', 150118, N'943267111')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (104, N'DNI', N'35078731', N'CASTILLO PEÑA ', N'MARIA DEL CARMEN', N'JR PACASMAYO 690', 150119, N'953267133')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (104, N'DNI', N'35078731', N'CASTILLO PEÃ‘A ', N'MARIA DEL CARMEN', N'JR PACASMAYO 690', 150119, N'953267133')
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (105, N'DNI', N'36672232', N'CORONADO MEDINA ', N'JESSICA', N'JR PERRICHOLI 390', 150120, N'963234131')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (106, N'DNI', N'37671139', N'PEÑA  RUBIO', N'SANDRA', N'AV ARICA 1160', 150121, N'973267172')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (106, N'DNI', N'37671139', N'PEÃ‘A  RUBIO', N'SANDRA', N'AV ARICA 1160', 150121, N'973267172')
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (107, N'DNI', N'38678552', N'PEREZ GARCIA', N'MARIA LUISA', N'AV PANAMA  4545', 150122, N'983266630')
 GO
@@ -334,25 +334,25 @@ INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, i
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (120, N'DNI', N'51678751', N'SANCHEZ PALOMINO ', N'MARCELA ', N'AV ZORRITOS 1230', 150116, N'733261557')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (121, N'DNI', N'46052889', N'VERA DONAIRES', N'FLOR DE MARIA', N'JR. TORRE TAGLE N° 237', 150120, N'748762283')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (121, N'DNI', N'46052889', N'VERA DONAIRES', N'FLOR DE MARIA', N'JR. TORRE TAGLE NÂ° 237', 150120, N'748762283')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (122, N'DNI', N'6014583', N'ZEVALLOS SOTO', N'FALIONERI ALBERTO', N'JR. VIRREY TOLEDO N° 387', 150119, N'757666743')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (122, N'DNI', N'6014583', N'ZEVALLOS SOTO', N'FALIONERI ALBERTO', N'JR. VIRREY TOLEDO NÂ° 387', 150119, N'757666743')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (123, N'DNI', N'23259018', N'LEONMARIN', N'JULISSA', N'JR. VICTORIA GARMA Nº 335 - CERCADO - (MINJUS)', 150124, N'767664113')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (123, N'DNI', N'23259018', N'LEONMARIN', N'JULISSA', N'JR. VICTORIA GARMA NÂº 335 - CERCADO - (MINJUS)', 150124, N'767664113')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (124, N'DNI', N'44206519', N'CHIRE CERVANTES', N'NATALIA ARCELIA', N'JR. NICOLAS DE PIEROLA Nº 495 - 2DO. PISO - CERCADO', 150123, N'777666786')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (124, N'DNI', N'44206519', N'CHIRE CERVANTES', N'NATALIA ARCELIA', N'JR. NICOLAS DE PIEROLA NÂº 495 - 2DO. PISO - CERCADO', 150123, N'777666786')
 GO
 INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (125, N'DNI', N'6783630', N'VEGA CARO', N'NORY MARILYN', N'AV. ANDRES AVELINO CACERES S/N', 150123, N'780677483')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (126, N'DNI', N'42200135', N'HUAMAN DE LA CRUZ', N'PEDRO ANIBAL', N'MALECON VIRGEN DE LA CANDELARIA N° 119 (AL COSTADO DE LA ESCUELA DE POLICIAS)', 150125, N'791104567')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (126, N'DNI', N'42200135', N'HUAMAN DE LA CRUZ', N'PEDRO ANIBAL', N'MALECON VIRGEN DE LA CANDELARIA NÂ° 119 (AL COSTADO DE LA ESCUELA DE POLICIAS)', 150125, N'791104567')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (127, N'DNI', N'7948969', N'VALDIVIA MANCHEGO', N'LANDERER TULA ROXANA', N'JR. MANUEL P. FERNANDEZ N°315 2DO NIVEL', 150116, N'807677383')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (127, N'DNI', N'7948969', N'VALDIVIA MANCHEGO', N'LANDERER TULA ROXANA', N'JR. MANUEL P. FERNANDEZ NÂ°315 2DO NIVEL', 150116, N'807677383')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (128, N'DNI', N'29593228', N'ARANDA ZURITA', N'GISELLA MASSIELA', N'AVENIDA CENTENARIO N° 1004', 150118, N'817636602')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (128, N'DNI', N'29593228', N'ARANDA ZURITA', N'GISELLA MASSIELA', N'AVENIDA CENTENARIO NÂ° 1004', 150118, N'817636602')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (129, N'DNI', N'25681928', N'TUNQUE DUEÑAS', N'FANY LIZ', N'AVENIDA CELESTINO MANCHEGO MUÑOZ N° 391, INTERIOR 302 CERCADO', 150124, N'686243210')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (129, N'DNI', N'25681928', N'TUNQUE DUEÃ‘AS', N'FANY LIZ', N'AVENIDA CELESTINO MANCHEGO MUÃ‘OZ NÂ° 391, INTERIOR 302 CERCADO', 150124, N'686243210')
 GO
-INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (130, N'DNI', N'20406880', N'VALENCIA TUNQUE', N'FEDERICO', N'JR. VIRREY TOLEDO N° 241-251', 150118, N'999244903')
+INSERT clientes (id_cliente, tipo_doc, nro_doc, apellidos, nombres, direccion, id_ubigeo, celular) VALUES (130, N'DNI', N'20406880', N'VALENCIA TUNQUE', N'FEDERICO', N'JR. VIRREY TOLEDO NÂ° 241-251', 150118, N'999244903')
 GO
 
 --UNIDAD DE MEDIDA
@@ -377,7 +377,7 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (12, 5, N'QUESO SCHEDAR 1KL', N'UND', 18.5)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (13, 2, N'RON FLOR DE CAÑA 1L X12', N'CAJ', 350)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (13, 2, N'RON FLOR DE CAÃ‘A 1L X12', N'CAJ', 350)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (14, 4, N'ACEITE GIRASOL 750 ML', N'UND', 12.5)
 GO
@@ -385,9 +385,9 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (16, 1, N'AZUCAR MARCATE 5K', N'BOL', 19)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (17, 2, N'RON CARTAVIO 8 AÑOS 1L X 12', N'CAJ', 380)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (17, 2, N'RON CARTAVIO 8 AÃ‘OS 1L X 12', N'CAJ', 380)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (18, 1, N'ARROZ COSTEÑO 1KL', N'BOL', 3.8)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (18, 1, N'ARROZ COSTEÃ‘O 1KL', N'BOL', 3.8)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (19, 4, N'ACEITE PRIMOR 1L', N'UND', 15)
 GO
@@ -397,7 +397,7 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (22, 1, N'ARROZ EL GRAN GRANO', N'BOL', 5.2)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (23, 1, N'ARROZ CAPOTEÑA', N'BOL', 3.9)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (23, 1, N'ARROZ CAPOTEÃ‘A', N'BOL', 3.9)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (24, 1, N'FIDEO MOLITALIA', N'BOL', 4.8)
 GO
@@ -423,7 +423,7 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (35, 2, N'VINO CONDE DE LA CONQUISTA', N'BOT', 26.8)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (36, 2, N'VINO  VIÑA DE CAMPOS ', N'BOT', 25.3)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (36, 2, N'VINO  VIÃ‘A DE CAMPOS ', N'BOT', 25.3)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (37, 2, N'VINO LA TOSTADORA', N'BOT', 25.9)
 GO
@@ -451,13 +451,13 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (49, 5, N'QUESO FRESCO DE AYACUCHO 1K', N'UND', 16.2)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (50, 5, N'QUESO MOZARELLA  ESPAÑOL 1K', N'UND', 27.5)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (50, 5, N'QUESO MOZARELLA  ESPAÃ‘OL 1K', N'UND', 27.5)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (51, 5, N'QUESO PHILADELPHIA  ESPAÑOL1 K', N'UND', 32.5)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (51, 5, N'QUESO PHILADELPHIA  ESPAÃ‘OL1 K', N'UND', 32.5)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (52, 5, N'QUESO MANCHEGO ESPAÑOL 1K', N'UND', 35.4)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (52, 5, N'QUESO MANCHEGO ESPAÃ‘OL 1K', N'UND', 35.4)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (53, 5, N'QUESO CABRALES  ESPAÑOL 1K', N'UND', 34.8)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (53, 5, N'QUESO CABRALES  ESPAÃ‘OL 1K', N'UND', 34.8)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (54, 5, N'QUESO STILTON - INGLES  1K', N'UND', 35.9)
 GO
@@ -695,9 +695,9 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (171, 1, N'UVA ITALIA  BOLSA 1K', N'UND', 12.1)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (172, 1, N'UVA BORGOÑA NEGRA  BOLSA 1K', N'UND', 8.3)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (172, 1, N'UVA BORGOÃ‘A NEGRA  BOLSA 1K', N'UND', 8.3)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (173, 1, N'UVA BORGOÑA BLANCA BOLSA 1K ', N'UND', 8.9)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (173, 1, N'UVA BORGOÃ‘A BLANCA BOLSA 1K ', N'UND', 8.9)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (174, 1, N'UVA QUEBRANTA BOLSA  1K', N'UND', 7.5)
 GO
@@ -725,7 +725,7 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (186, 1, N'TOMATE ROJO BOLSA  1K', N'UND', 5.2)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (187, 1, N'LIMON NORTEÑO BOLSA 1K', N'UND', 4.2)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (187, 1, N'LIMON NORTEÃ‘O BOLSA 1K', N'UND', 4.2)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (188, 1, N'AGUACATE HASH  BOLSA 1K', N'UND', 10.2)
 GO
@@ -749,9 +749,9 @@ INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, prec
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (198, 2, N'PISCO PORTON ACHOLADO BOTELLA 750 ML', N'UND', 88.9)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (199, 2, N'PISCO QUEIROLO ACHOÑADO BOTELLA  750 ML', N'UND', 30.9)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (199, 2, N'PISCO QUEIROLO ACHOÃ‘ADO BOTELLA  750 ML', N'UND', 30.9)
 GO
-INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (200, 2, N'RON FLOR DE CAÑA  BOTELLA 750 ML', N'UND', 99.9)
+INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (200, 2, N'RON FLOR DE CAÃ‘A  BOTELLA 750 ML', N'UND', 99.9)
 GO
 INSERT productos (id_producto, id_categoria, descripcion, id_unidad_medida, precio) VALUES (201, 2, N'PISCO QUEIROLO  QUEBRANTA BOTELLA  750 ML', N'UND', 30.9)
 GO
